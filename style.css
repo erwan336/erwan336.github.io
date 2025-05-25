@@ -68,3 +68,21 @@ footer {
   color: white;
   font-size: 0.9rem;
 }
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.title-group {
+  text-align: left;
+}
