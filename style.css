@@ -8,9 +8,28 @@ body {
 header {
   background-color: #003366;
   color: white;
-  text-align: center;
-  padding: 2rem;
+  padding: 1rem 2rem;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+header h1 {
+  margin: 0.5rem 0;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 section {
@@ -47,6 +66,5 @@ footer {
   padding: 1.5rem;
   background-color: #222;
   color: white;
-  margin-top: 2rem;
   font-size: 0.9rem;
 }

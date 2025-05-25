@@ -3,38 +3,58 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cartes des Indices SIG</title>
+  <title>Projet SIG Séguéla</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Référentiel SIG - Forêt classée de Séguéla</h1>
-    <p>Visualisation des indices NDVI, SAVI, NDWI, classifications et projection 2035</p>
+    <h1>Projet SIG - Forêt classée de Séguéla</h1>
+    <nav>
+      <a href="#ndvi">NDVI</a>
+      <a href="#savi">SAVI</a>
+      <a href="#ndwi">NDWI</a>
+      <a href="#classif">Classifications</a>
+      <a href="#projection">Projection</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
 
-  <section class="bloc">
+  <section class="bloc" id="presentation">
+    <h2>Présentation du Projet</h2>
+    <p>
+      Ce projet a pour objectif d'analyser l'évolution de la couverture végétale dans la forêt classée de Séguéla à l'aide d'indices issus des images satellites (Landsat).
+      Les analyses portent sur les années 2000, 2023 ainsi qu'une projection à l'horizon 2035.
+    </p>
+  </section>
+
+  <section class="bloc" id="ndvi">
     <h2>NDVI 2000 vs 2023</h2>
     <img src="ndvi_comparatif.png" alt="NDVI comparatif">
   </section>
 
-  <section class="bloc">
+  <section class="bloc" id="savi">
     <h2>SAVI 2000 vs 2023</h2>
     <img src="savi_comparatif.png" alt="SAVI comparatif">
   </section>
 
-  <section class="bloc">
+  <section class="bloc" id="ndwi">
     <h2>NDWI 2000 vs 2023</h2>
     <img src="ndwi_comparatif.png" alt="NDWI comparatif">
   </section>
 
-  <section class="bloc">
+  <section class="bloc" id="classif">
     <h2>Classification supervisée 2000 vs 2023</h2>
     <img src="classif_comparatif.png" alt="Classification comparée">
   </section>
 
-  <section class="bloc">
+  <section class="bloc" id="projection">
     <h2>Projection 2035</h2>
     <img src="projection_2035.png" alt="Projection 2035">
+  </section>
+
+  <section class="bloc" id="contact">
+    <h2>Contact</h2>
+    <p>Pour toute information complémentaire, contactez-moi à : <a href="mailto:contact@ericng.com">contact@ericng.com</a></p>
   </section>
 
   <footer>
